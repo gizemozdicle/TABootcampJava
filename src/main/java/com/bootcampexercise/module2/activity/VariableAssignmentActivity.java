@@ -1,4 +1,4 @@
-package com.bootcampexercise.modul2.activity;
+package com.bootcampexercise.module2.activity;
 
 public class VariableAssignmentActivity {
 
