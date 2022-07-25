@@ -1,4 +1,4 @@
-package com.bootcampexercise.gizem.modul2.activity;
+package com.bootcampexercise.modul2.activity;
 
 public class VariableAssignmentActivity {
 
