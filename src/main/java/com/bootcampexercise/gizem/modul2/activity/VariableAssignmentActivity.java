@@ -10,7 +10,7 @@ public class VariableAssignmentActivity {
 
             i = 50;
 
-            System.out.println(i);
+            System.out.println("Result " + i);
 
         }
 
