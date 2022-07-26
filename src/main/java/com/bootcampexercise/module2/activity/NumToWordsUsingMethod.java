@@ -3,7 +3,7 @@ package com.bootcampexercise.module2.activity;
 public class NumToWordsUsingMethod {
 
     public static void main(String[] args) {
-        numToWordsLogic(300);
+        numToWordsLogic(1);
     }
 
     public static void numToWordsLogic(int x) {
