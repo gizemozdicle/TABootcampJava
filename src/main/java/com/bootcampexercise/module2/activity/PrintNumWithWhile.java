@@ -6,7 +6,7 @@ public class PrintNumWithWhile {
 
         int i = 1;
         while (i <= 100) {
-            if (i % 3 == 0)
+            if (i % 2 == 1)
                 System.out.println("Odd Number= " + i);
             i = i + 1;
 
