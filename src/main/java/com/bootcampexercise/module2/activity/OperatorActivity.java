@@ -7,10 +7,10 @@ public class OperatorActivity {
 		int j = 20;
 
 
-		int result = i-j;
+		int result = i+j;
 
 
-		System.out.println("Difference = " + result);
+		System.out.println("sum = " + result);
 
 
 
