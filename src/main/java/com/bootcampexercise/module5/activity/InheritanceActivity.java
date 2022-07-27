@@ -1,7 +1,6 @@
 package com.bootcampexercise.module5.activity;
 
 import com.bootcampexercise.module5.sample.inheritance.Person_I;
-import com.bootcampexercise.module5.sample.inheritance.Student_I;
 
 public class InheritanceActivity {
 
