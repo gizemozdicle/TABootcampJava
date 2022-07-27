@@ -3,66 +3,69 @@ package com.bootcampexercise.module3.activity;
 public class Calculator {
 
     private String calculatorType;
-	public static final String CALC_TYPE_BASIC = "Basic";
+    public static final String CALC_TYPE_BASIC = "Basic";
 
-	// Default constructor
-	public Calculator() {}
+    // Default constructor
+    public Calculator() {
+    }
 
-	// Parameterized constructor
-	public Calculator(String calculatorType) {
-		this.calculatorType = calculatorType;
-	}
+    // Parameterized constructor
+    public Calculator(String calculatorType) {
+        this.calculatorType = calculatorType;
+    }
 
-	// Getter for CalculatorType
-	public String getCalculatorType() {
-		return calculatorType;
-	}
+    // Getter for CalculatorType
+    public String getCalculatorType() {
 
-	// Setter for CalculatorType
-	public void setCalculatorType(String calculatorType) {
-		this.calculatorType = calculatorType;
-	}
+        return calculatorType;
+    }
 
-	// Add
-	public int add(int x, int y) {
-		int sum = x + y;
-		return sum;
-	}
+    // Setter for CalculatorType
+    public void setCalculatorType(String calculatorType) {
 
-	// Subtract
-	public int subtract(int x, int y) {
-		int diff = 0;
-		if (x > y) {
-			diff = x - y;
-		} else {
-			diff = y - x;
-		}
+        this.calculatorType = calculatorType;
+    }
 
-		return diff;
-	}
+    // Add
+    public int add(int x, int y) {
+        int sum = x + y;
+        return sum;
+    }
 
-	// Multiply
-	public int multiply(int[] numbers) {
-		int temp = 1;
+    // Subtract
+    public int subtract(int x, int y) {
+        int diff = 0;
+        if (x > y) {
+            diff = x - y;
+        } else {
+            diff = y - x;
+        }
 
-		for (int i = 0; i < numbers.length; i++) {
-			temp = temp * numbers[i];
-		}
-		return temp;
+        return diff;
+    }
 
-	}
+    // Multiply
+    public int multiply(int[] numbers) {
+        int temp = 1;
 
-	// Divide
-	public int divide(int x, int y) {
-		int divValue = 0;
-		if (x == 0 || y == 0) {
-			divValue = 0;
-		} else {
-			divValue = x / y;
-		}
-		return divValue;
+        for (int i = 0; i < numbers.length; i++) {
+            temp = temp * numbers[i];
+        }
+        return temp;
 
-	}
+    }
+
+    // Divide
+    public int divide(int x, int y) {
+        int divValue = 0;
+        if (x == 0 || y == 0) {
+            divValue = 0;
+        } else {
+            divValue = x / y;
+        }
+        return divValue;
+
+    }
 
 
 }
