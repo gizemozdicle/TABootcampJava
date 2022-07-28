@@ -27,7 +27,7 @@ public class TryCatchFinallyActivity {
         //TODO: create catch for try and use IndexOutOfBoundsException
         catch (IndexOutOfBoundsException IndexOutOfBoundsException){
 
-            System.out.println("IndexOutOfBoundsException");
+            System.out.println(IndexOutOfBoundsException);
         }
 
         //TODO: In catch create custom System.out.println message
