@@ -28,11 +28,17 @@ public class Person {
     //TODO: Create a method to calculate humans body mass index with two parameters for height and weight
 
     public double getBodyMassIndex() {
-        return this.weight/(this.height*this.height);
+        return this.weight / (this.height * this.height);
 
     }
 
     //TODO: return String which indicates persons BMI. Calculation should be used weight/(height*height)
+
+    public String getStringBodyMassIndex() {
+        double bodyMassIndex = this.weight / (this.height * this.height);
+        return Double.toString(bodyMassIndex);
+
+    }
 
     // TODO: Please add some checks for max weight and height (kg and meter are their units)
     //TODO: Also add some checks that value shouldn't be negative and 0

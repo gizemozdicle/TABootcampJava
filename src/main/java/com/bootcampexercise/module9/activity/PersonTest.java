@@ -45,9 +45,15 @@ public class PersonTest extends TestCase {
 
         double testDataBodyMassIndex = 0.0018359374953433871;
 
-        assertEquals(person.getBodyMassIndex(),testDataBodyMassIndex);
+        assertEquals(person.getBodyMassIndex(), testDataBodyMassIndex);
 
+    }
 
+    public void testStringBodyMassIndex() {
+
+        String testStringData = "0.0018359374953433871";
+
+        assertEquals(person.getStringBodyMassIndex(), testStringData);
 
     }
 
