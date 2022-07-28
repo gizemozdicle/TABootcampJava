@@ -26,21 +26,25 @@ public class Person_I {
 
     // getter for String name
     public String getName() {
+
         return name;
     }
 
     // setter for String name
     public void setName(String name) {
+
         this.name = name;
     }
 
     // getter for int age
     public int getAge() {
+
         return age;
     }
 
     // setter for int age
     public void setAge(int age) {
+
         this.age = age;
     }
 
