@@ -13,4 +13,13 @@
         <maven.compiler.target>18</maven.compiler.target>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>     <!-- NOT org.junit here -->
+            <artifactId>junit-dep</artifactId>
+            <version>4.8.2</version>
+        </dependency>
+    </dependencies>
+
+
 </project>
